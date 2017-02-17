@@ -1,7 +1,4 @@
 <?php
-$content .= '<form class="toggles" method="POST">
-<button type="submit">Off</button>
-</form>';
-exec('gpio write 4 0');
-header('Location: index.php');
+exec('gpio write 4 0'); //Turns the LED off
+header('Location: index.php'); //Sends the user back to the index page
 ?>
