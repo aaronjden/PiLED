@@ -1,6 +1,6 @@
 <?php echo "hello world<br>";
 $content = "";//Content variable that will be echoed
-
+exec('gpio mode 4 out');
 $line = "<br>";
 
 //Append on and off buttons to content variable
